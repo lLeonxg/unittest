@@ -28,6 +28,7 @@ jobs:
       - run:
           name: Test
           command: mvn -Dtest=Calculadora* test
+      #final command action
       -run:
           name: Final
           command: echo "gusbye"
